@@ -1,0 +1,8 @@
+VirtualAddrNetworkIPv4 10.192.0.0/10
+AutomapHostsOnResolve 1
+TransPort 9040 IsolateClientAddr IsolateClientProtocol IsolateDestAddr IsolateDestPort
+DNSPort 9053
+
+User debian-tor
+
+DataDirectory /var/lib/tor

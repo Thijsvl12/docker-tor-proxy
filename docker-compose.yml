@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  tor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    cap_add:
+      - NET_ADMIN
